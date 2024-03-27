@@ -18,7 +18,7 @@ const LogOut: React.FC = () => {
                 </IonHeader>
                 <IonCard class="myDesign">
                     <IonText><h1 class="myDesign">Are you sure you want to log out?</h1></IonText>
-                    <IonButton href="/login">Yes, log me out.</IonButton>
+                    <h1 class="myDesign"><IonButton class="myDesign" href="/login">Yes, log me out.</IonButton></h1>
                 </IonCard>
             </IonContent>
         </IonPage>

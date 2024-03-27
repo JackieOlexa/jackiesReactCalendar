@@ -1,0 +1,7 @@
+ion-checkbox.myDesign-1 {
+  --border-color: #f78e39;
+  --border-color-checked: #6dd3fc;
+  --checkbox-background: #6dd3fc;
+  --checkbox-background-checked: #f78e39;
+  --checkmark-color: black;
+}

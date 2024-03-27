@@ -10,7 +10,7 @@ ion-button {
     font-size: 10px;
 }
 
-h1.myDesign {
+div.myDesign {
     font-size: 40px;
     font-family: 'Lucida Handwriting', cursive;
 }
@@ -28,16 +28,16 @@ h2.myDesign {
 ion-datetime {
     max-width: 100%;
     height: auto;
-    background-color: burlywood;
+    background-color: #fad698;
     color: blue !important;
-    --ion-color-step-300: lightblue;
+    --ion-color-step-300: #ccf3fc;
     --title-color: blue;
 }
 
 ion-card.card-center {
     background-color: transparent;
     padding-top: 5%;
-    width: 90%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     box-shadow: none;

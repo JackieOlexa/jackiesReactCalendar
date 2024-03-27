@@ -1,13 +1,18 @@
+ion-title {
+    font-size: 40px;
+}
+
 ion-toolbar {
     --background: #CEF0FD;
 }
 
 ion-button {
-    font-size: 10px;
+    font-size: 100px;
 }
 
-ion-title.myDesign {
-    padding-left: 50%;
+div.myDesign {
+    font-size: 40px;
+    font-family: 'Lucida Handwriting', cursive;
 }
 
 ion-button.submitting {
@@ -15,9 +20,12 @@ ion-button.submitting {
     color: darkblue;
 }
 
-h1.myDesign {
-    font-size: 40px;
-    font-family: 'Lucida Handwriting', cursive;
+ion-button.myDesign {
+    --background: #6dd3fc;
+    --color: darkblue;
+    --border-color: #fad698;
+    ;
+    --border-style: solid;
 }
 
 h1 span {
@@ -39,8 +47,26 @@ h3.myDesign {
 ion-card.card-center {
     background-color: transparent !important;
     padding-top: 5%;
-    width: 70%;
+    width: 50%;
     display: block;
     margin: 0 auto;
     box-shadow: none;
+}
+
+ion-card.todo-card-center-1 {
+    background-color: transparent !important;
+    padding-top: 5%;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.custom-alert .alert-button-group {
+    padding: 8px;
+}
+
+button.alert-button.alert-button-confirm {
+    background-color: var(--ion-color-success);
+    color: var(--ion-color-success-contrast);
 }

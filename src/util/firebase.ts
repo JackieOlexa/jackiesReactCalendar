@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app'
-import { Firestore, doc, getDoc, getFirestore } from 'firebase/firestore/lite'
- 
+import { getFirestore } from "firebase/firestore/lite"
+import { Firestore, doc, getDoc } from 'firebase/firestore/lite'
+
 const firebaseConfig = {
   apiKey: "AIzaSyDMl26TDb3WJrEEA2tFH2Uod2-L9-uH_gI",
   authDomain: "jackies-first-test.firebaseapp.com",
@@ -13,3 +14,9 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
+export async function getHolidays(db: Firestore): Promise<any> {
+  const docRef = doc(db, "Months", "March");
+  const docSnap = await getDoc(docRef);
+  return docSnap.data();
+}

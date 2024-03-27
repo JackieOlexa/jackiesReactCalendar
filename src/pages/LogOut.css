@@ -1,9 +1,18 @@
 ion-card.myDesign {
+    background-color: transparent;
     padding-top: 5%;
-    width: 70%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     box-shadow: none;
-    border-radius: 5px;
-    border-color: aqua
+}
+
+h1.myDesign {
+    text-align: center;
+    color: #6DD5FD;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+ion-button.myDesign {
+    background-color: #6DD5FD !important;
 }

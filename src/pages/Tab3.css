@@ -1,0 +1,63 @@
+ion-toolbar {
+    --background: #CEF0FD;
+    color: #3fc5fa;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+ion-button {
+    font-size: 10px;
+}
+
+ion-title {
+    font-family: 'Lucida Handwriting', cursive;
+    color: #3fc5fa;
+    font-size: 30px;
+}
+
+ion-button.submitting {
+    background-color: skyblue !important;
+    color: darkblue;
+}
+
+div.myDesign {
+    font-size: 40px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+h2.myDesign {
+    font-size: 10px;
+    text-align: right;
+}
+
+h3.myDesign {
+    font-size: 20px;
+    text-align: center;
+    color: skyblue;
+}
+
+ion-card.card-center {
+    background-color: transparent !important;
+    padding-top: 5%;
+    width: 40% !important;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+ion-card.card-center-1 {
+    background-color: transparent !important;
+    padding-top: 5%;
+    width: 95% !important;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+ion-card.card-center-2 {
+    background-color: transparent !important;
+    padding-top: 5%;
+    width: 20% !important;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}

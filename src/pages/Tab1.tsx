@@ -1,13 +1,17 @@
 import { IonButton, IonButtons, IonDatetime, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
+import { useState } from 'react';
 
 const Tab1: React.FC = () => {
+
+  //var [importantDays, setImportantDays] = useState("1,2,3,4");
+
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle><h1 class='myDesign'>Calendar Overview</h1></IonTitle>
+          <IonTitle><div class='myDesign'>Calendar Overview</div></IonTitle>
           <IonButtons slot="end">
             <IonButton href="/logOut">Log Out</IonButton>
             <IonButton href="/login">Change Account</IonButton>

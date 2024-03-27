@@ -38,7 +38,6 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 setupIonicReact();
-
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
@@ -73,7 +72,7 @@ const App: React.FC = () => (
           </IonTabButton>
           <IonTabButton tab="To Dos" href="/todo">
             <IonIcon aria-hidden="true" icon={list} />
-            <IonLabel>To Do</IonLabel>
+            <IonLabel>To-Do</IonLabel>
           </IonTabButton>
           <IonTabButton tab="Events" href="/events">
             <IonIcon aria-hidden="true" icon={pin} />

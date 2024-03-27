@@ -3,10 +3,18 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+
   --ion-background-color: linear-gradient(#FCDFB7, #E0F4FF);
 
+  --ion-tab-bar-background: #CEF0FD;
+  --ion-tab-bar-color: #6DD5FD;
+
+  --ion-card-background: #CEF0FD;
+
+  --ion-button-background: #6DD5FD;
+
   ion-toolbar {
-    color: #6DD5FD;
+    color: #3fc5fa;
     font-family: 'Lucida Handwriting', cursive;
   }
 

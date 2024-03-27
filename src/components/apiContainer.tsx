@@ -1,21 +1,12 @@
-import { useState } from 'react';
-import axios from 'axios';
-const params = {};
-const [response, setResponse] = useState([]);
+import { IonText, IonCard, IonCardContent } from '@ionic/react';
+import React from "react";
 
-const CalledAPI: React.FC = () => {
+export default function Card(feed: any) {
+    let text = feed
     return (
-        axios.get('https://cat-fact.herokuapp.com/facts', { params })
-            .then(response => {
-                const apiResponse = response.data;
-                setResponse(apiResponse)
-            }).catch(error => {
-                console.log(error)
-            })
-    );
-};
-
-export default CalledAPI;
+        <IonText>{String(text)}</IonText>
+    )
+}
 
 
 
